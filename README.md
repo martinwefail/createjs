@@ -1,7 +1,7 @@
 Wefail
 =======
 
-CreateJS tutorial for dynamic character movement within an environment. Based on British musician Rat Boy's award losing website! 
+[CreateJS](http://www.createjs.com) tutorial for dynamic character movement within an environment. Based on British musician [Rat Boy's award losing website!](http://www.ratboy.co.uk) 
 
 **Important notes:**
 
@@ -9,18 +9,19 @@ CreateJS tutorial for dynamic character movement within an environment. Based on
 
 Demonstrates a variety of concepts including:
 
-- FlashCC HTML5 canvas export
+- [Publish](https://helpx.adobe.com/flash/how-to/creating-publishing-html5-canvas-document.html) an HTML5 canvas document
 - tweened character animation on a timeline
 - mouse click dynamic movement of environment
 - follow-mouse rotation of bitmaps
 
-All art & graphics is copyright 2016 wefail.com, ltd. and cannot be used without permission.
+All art & graphics is copyright 2016 [wefail.com](http://www.wefail.com), ltd. and cannot be used without permission.
 
 For more information regarding Wefail
 ---------------------
 Visit the following:  
+- [martin-h](http://www.martin-h.com)
+- [twitter:@Wefail](http://www.twitter.com/wefail)   
 - [wefail](http://www.wefail.com)   
-- [martin-h](http://www.martin-h.com)   
 
 
 For more information regarding CreateJS
