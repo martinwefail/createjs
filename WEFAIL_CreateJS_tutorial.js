@@ -845,8 +845,8 @@ p.nominalBounds = new cjs.Rectangle(-827.6,-375,2453.6,801.1);
 		//initial speed of character
 		this.setSpeed = 0;
 			//Stage width and height
-		this.WIDTH = 1024;
-		this.HEIGHT = 768;
+		this.WIDTH = lib.properties.width;
+		this.HEIGHT = lib.properties.height;
 			//initial placement of character and co-ordinates
 		this.myPosition = new createjs.Point(stage.mouseX, stage.mouseY);
 		this.ratSpeed = 0;
@@ -862,8 +862,6 @@ p.nominalBounds = new cjs.Rectangle(-827.6,-375,2453.6,801.1);
 		this.arm1 = this.torso.arm1;
 		this.arm2 = this.torso.arm2;
 		this.lands = [this.scene.land00, this.scene.land01, this.scene.land02];
-			//Remove since gound is nested within each landXX mc.
-		//this.grounds = [this.scene.land00.ground, this.scene.land01.ground, this.scene.land02.ground]
 		this.body = [this.ratboyInner.torso, this.torso.head, this.torso.arm1, this.torso.arm2]
 		
 			//Fire up touch and mouse code
@@ -879,7 +877,7 @@ p.nominalBounds = new cjs.Rectangle(-827.6,-375,2453.6,801.1);
 			var dx = this.myPosition.x - globalPoint.x;
 			var dy = this.myPosition.y - globalPoint.y;
 			var angle = Math.atan2(dx, dy)* (180 / Math.PI)*-1;
-		
+			
 			//headbody
 			if (angle > 0) {
 				this.ratBoyDirection = "left";

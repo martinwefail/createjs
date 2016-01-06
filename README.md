@@ -1,8 +1,9 @@
 Wefail
 =======
 
-[CreateJS](http://www.createjs.com) tutorial for dynamic character movement within an environment. Based on British musician [Rat Boy's award losing website!](http://www.ratboy.co.uk) 
+[CreateJS](http://www.createjs.com) tutorial for dynamic character movement within an environment. Based on British musician [Rat Boy's website!](http://www.ratboy.co.uk) 
 ![ScreenShot](https://raw.github.com/martinwefail/createjs/master/image1.png)
+
 **Important notes:**
 
 - due to security restrictions on local content, you must run this example from a web server.
