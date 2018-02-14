@@ -8,7 +8,7 @@
 <script src="http://code.createjs.com/tweenjs-0.6.1.min.js"></script>
 <script src="http://code.createjs.com/movieclip-0.8.1.min.js"></script>
 <script src="http://code.createjs.com/preloadjs-0.6.1.min.js"></script>
-<script src="WEFAIL_CreateJS_tutorial.js"></script>
+<script src="https://github.com/martinwefail/createjs/blob/master/WEFAIL_CreateJS_tutorial.js"></script>
 
 <script>
 var canvas, stage, exportRoot;
@@ -21,7 +21,7 @@ function init() {
 	var loader = new createjs.LoadQueue(false);
 	loader.addEventListener("fileload", handleFileLoad);
 	loader.addEventListener("complete", handleComplete);
-loader.loadFile({src:"images/WEFAIL_CreateJS_tutorial_atlas_.json", type:"spritesheet", id:"WEFAIL_CreateJS_tutorial_atlas_"}, true);
+loader.loadFile({src:"https://cdn.rawgit.com/martinwefail/createjs/d8e146ef/images/WEFAIL_CreateJS_tutorial_atlas_.json", type:"spritesheet", id:"WEFAIL_CreateJS_tutorial_atlas_"}, true);
 	loader.loadManifest(lib.properties.manifest);
 }
 
